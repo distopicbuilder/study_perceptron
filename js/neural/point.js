@@ -16,7 +16,7 @@ export class Point {
     ellipse(this.x, this.y, this.radiusPoint, this.radiusPoint);
   }
 
-  makePoints(height, width, quantity) {
+  static makePoints(height, width, quantity) {
     let points = [];
     for (let i = 0; i < quantity; i++) {
       points[i] = new Point(height, width);
