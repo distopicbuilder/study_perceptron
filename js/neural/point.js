@@ -1,5 +1,4 @@
 export class Point {
-  radiusPoint = 4;
   x = 0;
   y = 0;
   label = 0;
@@ -13,7 +12,7 @@ export class Point {
   show() {
     stroke(0);
     fill(this.label == 1 ? 255 : 0);
-    ellipse(this.x, this.y, this.radiusPoint, this.radiusPoint);
+    ellipse(this.x, this.y, 1, 1);
   }
 
   static makePoints(height, width, quantity) {
