@@ -1,5 +1,10 @@
+<<<<<<< HEAD
 import { Perceptron } from "./neural/perceptron.js";
 import { Point } from "./neural/point.js";
+=======
+import { perceptron } from "./neural/perceptron.js";
+import { Point } from "./neural/train.js";
+>>>>>>> parent of 4282bac (Perceptron for class)
 
 const height = 400, width = 400;
 
@@ -11,8 +16,6 @@ function setup() {
 }
 function draw() {
   background(255);
-  stroke(0);
-  line(0, 0, height, width);
   points.forEach(x=>x.show())
 }
 
