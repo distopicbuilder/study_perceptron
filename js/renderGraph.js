@@ -1,10 +1,5 @@
-<<<<<<< HEAD
 import { Perceptron } from "./neural/perceptron.js";
 import { Point } from "./neural/point.js";
-=======
-import { perceptron } from "./neural/perceptron.js";
-import { Point } from "./neural/train.js";
->>>>>>> parent of 4282bac (Perceptron for class)
 
 const height = 400, width = 400;
 
